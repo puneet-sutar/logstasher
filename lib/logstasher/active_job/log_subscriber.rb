@@ -1,6 +1,6 @@
 begin
   # `rescue nil` didn't work for some Ruby versions
-  require 'active_job/logging'
+  require 'active_job/log_subscriber'
 rescue LoadError
 end
 
